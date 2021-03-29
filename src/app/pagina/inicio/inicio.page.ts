@@ -39,6 +39,17 @@ componentes: componente[]=[
           name: "Modal",
           redirecTo:"/modal"
         },
+        {
+          icon:"filter-circle-outline",
+          name: "Lista",
+          redirecTo:"/lista"
+        },
+        {
+          icon:"filter-circle-outline",
+          name: "Botones flotante",
+          redirecTo:"/bfloat"
+        },
+        
         
      
 ]

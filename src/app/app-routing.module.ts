@@ -35,6 +35,14 @@ const routes: Routes = [
     path: 'chip',
     loadChildren: () => import('./pagina/chip/chip.module').then( m => m.ChipPageModule)
   },
+  {
+    path: 'lista',
+    loadChildren: () => import('./pagina/lista/lista.module').then( m => m.ListaPageModule)
+  },
+  {
+    path: 'bfloat',
+    loadChildren: () => import('./pagina/bfloat/bfloat.module').then( m => m.BfloatPageModule)
+  },
 ];
 
 @NgModule({
