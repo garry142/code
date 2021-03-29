@@ -1,9 +1,15 @@
 <ion-header>
   <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaulHref="/inicio" text="ATRAS" color="light" mode="ios"></ion-back-button>
+    </ion-button>
     <ion-title>accion</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content class="iom-paddomg">
+  
+  <ion-button (click)="onClick()" expand="block">
+    Mostrar Acion
+  </ion-button>
 </ion-content>

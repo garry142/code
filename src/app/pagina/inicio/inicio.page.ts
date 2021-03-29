@@ -24,6 +24,22 @@ componentes: componente[]=[
           name: "accion",
           redirecTo:"/accion"
         },
+        {
+          icon:"chatbox-ellipses-outline",
+          name: "Tarjeta",
+          redirecTo:"/tarjeta"
+        },
+        {
+          icon:"document-text-outline",
+          name: "Caja",
+          redirecTo:"/caja"
+        },
+        {
+          icon:"filter-circle-outline",
+          name: "Modal",
+          redirecTo:"/modal"
+        },
+        
      
 ]
   constructor() { }

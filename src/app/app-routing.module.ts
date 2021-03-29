@@ -23,6 +23,18 @@ const routes: Routes = [
     path: 'tarjeta',
     loadChildren: () => import('./pagina/tarjeta/tarjeta.module').then( m => m.TarjetaPageModule)
   },
+  {
+    path: 'caja',
+    loadChildren: () => import('./pagina/caja/caja.module').then( m => m.CajaPageModule)
+  },
+  {
+    path: 'modal',
+    loadChildren: () => import('./pagina/modal/modal.module').then( m => m.ModalPageModule)
+  },
+  {
+    path: 'chip',
+    loadChildren: () => import('./pagina/chip/chip.module').then( m => m.ChipPageModule)
+  },
 ];
 
 @NgModule({
