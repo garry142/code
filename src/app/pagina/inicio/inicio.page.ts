@@ -40,14 +40,19 @@ componentes: componente[]=[
           redirecTo:"/modal"
         },
         {
-          icon:"filter-circle-outline",
+          icon:"ellipsis-vertical-outline",
           name: "Lista",
           redirecTo:"/lista"
         },
         {
-          icon:"filter-circle-outline",
+          icon:"git-compare-outline",
           name: "Botones flotante",
           redirecTo:"/bfloat"
+        },
+        {
+          icon:"git-compare-outline",
+          name: "Boton Insignia",
+          redirecTo:"/insignia"
         },
         
         

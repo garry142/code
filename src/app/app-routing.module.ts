@@ -43,6 +43,10 @@ const routes: Routes = [
     path: 'bfloat',
     loadChildren: () => import('./pagina/bfloat/bfloat.module').then( m => m.BfloatPageModule)
   },
+  {
+    path: 'insignia',
+    loadChildren: () => import('./pagina/insignia/insignia.module').then( m => m.InsigniaPageModule)
+  },
 ];
 
 @NgModule({
