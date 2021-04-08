@@ -50,11 +50,16 @@ componentes: componente[]=[
           redirecTo:"/bfloat"
         },
         {
-          icon:"git-compare-outline",
+          icon:"browsers-outline",
           name: "Boton Insignia",
           redirecTo:"/insignia"
         },
-        
+        {
+          icon:"apps-outline",
+          name: "Interfaz de Usuario",
+          redirecTo:"/inter-de-usuario"
+        },
+       
         
      
 ]

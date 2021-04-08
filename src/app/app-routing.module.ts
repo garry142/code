@@ -47,6 +47,14 @@ const routes: Routes = [
     path: 'insignia',
     loadChildren: () => import('./pagina/insignia/insignia.module').then( m => m.InsigniaPageModule)
   },
+  {
+    path: 'inter-de-usuario',
+    loadChildren: () => import('./pagina/inter-de-usuario/inter-de-usuario.module').then( m => m.InterDeUsuarioPageModule)
+  },
+  {
+    path: 'calendario',
+    loadChildren: () => import('./pagina/calendario/calendario.module').then( m => m.CalendarioPageModule)
+  },
 ];
 
 @NgModule({
